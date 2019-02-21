@@ -1,0 +1,33 @@
+barplot(sr$salary)
+> barplot(sr$salary,col= "red")
+> barplot(sr$salary,col = "red", main = "barplot")
+> barplot(sr$salary,col = "red", main = "sarang future")
+> barplot(sr$salary, col = "gray", main = "barplot", xlab = "number", ylab = "salary")
+> barplot(sr$salary, col = "gray", main = "barplot", xlab = "NUMBER", ylab = "SALARY")
+> BARPLOT(sr$salary)
+Error in BARPLOT(sr$salary) : could not find function "BARPLOT"
+> barplot(sr$salary,col= colours(), main= "BARPLOT", xlab = "NUMBER", ylab = "SALARY")
+> 
+> 
+> 
+> #SUNFLOWER PLOT
+> sunflowerplot(sr$salary)
+> sunflowerplot(sr$salary, col = "green", main = "sunflower plot ", xlab = "index", ylab = "salary")
+> sunflowerplot(sr$salary, col = colours(), main = "sunflower plot ", xlab = "index", ylab = "salary")
+> sunflowerplot(sr$salary, col = "green", main = "sunflower plot ", xlab = "index", ylab = "salary")
+> 
+> dotchart(sr$salary)
+> datchart(sr$salary, col = "green", main = "dotchart", xlab = "salary", ylab = "values")
+Error in datchart(sr$salary, col = "green", main = "dotchart", xlab = "salary",  : 
+                    could not find function "datchart"
+                  > dotchart(sr$salary, col = "green", main = "dotchart", xlab = "salary", ylab = "values")
+                  > dotchart(sr$salary, col = "gray", main = "dotchart", xlab = "salary", ylab = "values")
+                  > print(you are greate programmer ever born on this planet)
+                  Error: unexpected symbol in "print(you are"
+                  > print("you are greate programmer ever born on this planet")
+                  [1] "you are greate programmer ever born on this planet"
+                  > x <- 10:30
+                  > print(x)
+                  [1] 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30
+                  
+                  
